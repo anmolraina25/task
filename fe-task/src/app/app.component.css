@@ -1,0 +1,24 @@
+.logo {
+  width: 20vw;  
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    height: 12vw;
+}
+
+.widget-card {
+    height: 15vw;
+    width: 20vw;
+    background-color: #ececec;
+    border-radius: 25px;
+    margin: 2vw;
+}
+
+.widget-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: rotaBold;
+    src: url(assets/Rota/Rota-Bold.otf);
+}
+
+@font-face {
+    font-family: rotaBlack;
+    src: url(assets/Rota/Rota-Black.otf);
+}
+
+@font-face {
+    font-family: rotaMedium;
+    src: url(assets/Rota/Rota-Medium.otf);
+}
+
+@font-face {
+    font-family: rotaRegular;
+    src: url(assets/Rota/Rota-Regular.otf);
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}

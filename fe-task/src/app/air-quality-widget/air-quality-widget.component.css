@@ -1,0 +1,70 @@
+.card-title {
+    font-family: rotaBlack;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1.5rem;
+    font-size: xx-large;
+    color: #2D2D2D;
+}
+
+.card-content {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-half {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-half {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circular-banner {
+    background-color: #6DD0A5;
+    height: 75%;
+    width: 75%;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-banner > div {
+    color: white;
+    font-size: 4rem;
+    font-family: 'rotaBlack';
+}
+
+.wind-speed {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    font-family: rotaBlack;
+    font-size: 3rem;
+    color: #999999;
+}
+
+.divider {
+    border-top: 3px solid #e5e5e5;
+    width: 80%;
+    position: relative;
+    left: -1rem;
+}
+
+.close {
+    height: 5px;
+    width: 5px;
+    color: lightgray;
+}

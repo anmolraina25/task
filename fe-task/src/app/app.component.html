@@ -1,0 +1,16 @@
+<div class="logo-container">
+    <img class="logo" src="../assets/logo.svg">
+</div>
+<div class="widget-container">
+    <ng-container *ngFor="let widget of widgetsList; let index = index;">
+        <div class="widget-card" >
+            <app-air-quality-widget *ngIf="widget === 'air'" (deleteEvent)="onDelete(index)"></app-air-quality-widget>
+            <app-temperature-widget *ngIf="widget === 'temp'" (deleteEvent)="onDelete(index)"></app-temperature-widget>
+            <app-audio-widget *ngIf="widget === 'audio'" (deleteEvent)="onDelete(index)"></app-audio-widget>
+            <app-displays-widget *ngIf="widget === 'displays'" (deleteEvent)="onDelete(index)"></app-displays-widget>
+            <app-lighting-widget *ngIf="widget === 'lighting'" (deleteEvent)="onDelete(index)"></app-lighting-widget>
+        </div>
+        <div *ngIf="index === 2" style="width: 100%;"></div>
+    </ng-container>
+</div>
+
